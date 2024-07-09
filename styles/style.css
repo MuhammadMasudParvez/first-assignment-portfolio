@@ -39,7 +39,13 @@
     border-radius: 8px;
     opacity: 0.8;
     cursor: pointer;
+    transition: 0.1s;
 
+}
+.main-section nav ul li button:hover{
+    background-color: #0d1321;
+    border: 1px solid #0d1321;
+    color: #fff;
 }
 /*------------------------------------------------------
                 Main Section Hero Section
@@ -90,6 +96,12 @@
     background: #0d1321;
     border: none;
     cursor: pointer;
+    transition: 0.1s;
+}
+.contact-btn:hover{
+    border: 1px solid #0d1321;
+    background-color: #fff;
+    color: #0d1321;
 }
 
 
@@ -168,4 +180,7 @@
     color: rgb(13, 19, 33);
     font-size: 20px;
     font-weight: 600;
+}
+.learn-more:hover{
+    text-decoration: underline;
 }
