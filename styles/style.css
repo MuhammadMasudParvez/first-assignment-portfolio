@@ -1,0 +1,52 @@
+/*------------------------------------------------------
+                Google Font Azeret Mono
+------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Universal Style */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Azeret Mono", monospace;
+}
+/*------------------------------------------------------
+                Main Section Navigation Bar
+------------------------------------------------------*/
+.main-section{
+    margin: 0 auto;
+}
+.main-section nav{
+    margin: 45px 150px;
+}
+.main-section nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-section nav ul li{
+    list-style: none;
+}
+.main-section nav ul li a{
+    color: rgb(13, 19, 33);
+    font-size: 28px;
+    font-weight: 800;
+    text-decoration: none;
+}
+.main-section nav ul li button{
+    padding: 17px 24px;
+    background-color: #ffff;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    cursor: pointer;
+
+}
+/*------------------------------------------------------
+                Main Section Hero Section
+------------------------------------------------------*/
+.hero-section{
+    background-image: url(/assets/Hero-bg.png);
+    height: 652px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
