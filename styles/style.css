@@ -50,3 +50,44 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+.hero-contents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1240px;
+    margin: 0 auto;
+    padding-top: 26px;
+}
+.hero-img{
+    margin-bottom: 32px;
+}
+.hero-img img{
+    width: 240px;
+}
+.hero-title{
+    color: #0d1321;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    line-height: 68px;
+    margin-bottom: 24px;
+}
+.hero-desc{
+    color: #0d1321;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+.contact-btn{
+    padding: 21px 24px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: #0d1321;
+    border: none;
+    cursor: pointer;
+}
