@@ -184,3 +184,194 @@
 .learn-more:hover{
     text-decoration: underline;
 }
+
+/*------------------------------------------------------
+            My Inspiration Section     
+------------------------------------------------------*/
+.inspiration-container{
+    margin-top: 88px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inspiration-box{
+    width: 1140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.inspiration-desc{
+    width: 852px;
+}
+.inspiration-title{
+    text-align: center;
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.inspiration-desc{
+    text-align: center;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+}
+.youtube-video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    width: 1140px;
+    height: 614px;
+    margin: 32px;
+    margin-top: 48px;
+}
+.inspiration-video{
+    margin: 24px;
+    margin-top: 24px;
+    width: 1076px;
+    height: 550px;
+}
+
+/*------------------------------------------------------
+            My Current Target Section     
+------------------------------------------------------*/
+.current-target-section{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.current-target-container{
+    width: 1140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.current-target-content{
+
+}
+.current-target-title{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.current-target-desc{
+    color: #0d1321;
+    font-size: 16px;
+    text-align: center;
+    width: 852px;
+    margin-bottom: 48px;
+}
+.skills-box{
+    display: flex;
+    gap: 24px;
+}
+.single-skill-box{
+    padding: 40px;
+    border-radius: 16px;
+    width: 100%;
+}
+.ssb-first{
+    background: rgba(255, 76, 30, 0.05);
+}
+.ssb-second{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.ssb-third{
+    background-color:rgba(255, 223, 0, 0.05);
+}
+.single-skill-box img{
+    width: 56px;
+    height: 56px;
+    margin-bottom: 24px;
+}
+.single-skill-box h4{
+    color: #0d1321;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+.single-skill-box p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+.single-skill-box a{
+    color: #0d1321;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/*------------------------------------------------------
+            My Next Target Section     
+------------------------------------------------------*/
+.next-target-section{
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.next-target-container{
+    width: 1140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.next-target-title-desc{}
+.next-target-title{
+    color: #0d1321;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.next-target-desc{
+    color: #0d1321;
+    font-size: 16px;
+    width: 852px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.next-target-skills{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.next-target-single-skill{
+   padding: 40px;
+   border: 1px solid rgba(13, 19, 33, 0.15);
+   border-radius: 16px;
+   display: flex;
+   align-items: center;
+   gap: 24px;
+}
+.next-target-single-skill-img{
+    margin: 28px 0;
+}
+.next-target-single-skill img{}
+.next-target-single-skill h4{
+    color: #0d1321;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+.next-target-single-skill p{
+    color: #0d1321;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+.next-target-single-skill a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+}
