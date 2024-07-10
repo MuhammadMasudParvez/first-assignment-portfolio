@@ -91,11 +91,14 @@
     line-height: 26px;
     margin-bottom: 32px;
 }
-.contact-btn{
-    padding: 21px 24px;
+.contact-btn {
+    text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: 20px;
     font-weight: 600;
+}
+.contact-btn{
+    padding: 21px 24px;
     border-radius: 8px;
     background: #0d1321;
     border: none;
@@ -107,6 +110,8 @@
     background-color: #fff;
     color: #0d1321;
 }
+
+
 
 
 /*------------------------------------------------------
