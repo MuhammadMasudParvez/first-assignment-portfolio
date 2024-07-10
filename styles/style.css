@@ -55,7 +55,7 @@
                 Main Section Hero Section
 ------------------------------------------------------*/
 .hero-section{
-    background-image: url(/assets/Hero-bg.png);
+    background-image: url(./assets/Hero-bg.png);
     height: 652px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -392,7 +392,7 @@
     align-items: center;
 }
 .need-support-container{
-    background-image: linear-gradient(0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16,0.5) 100%),url(/assets/handshake.jpg);
+    background-image: linear-gradient(0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16,0.5) 100%),url(./assets/handshake.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -442,6 +442,7 @@ input[type="submit"] {
     border-radius: 8px;
     background: rgb(255, 255, 255);
     border: none;
+    cursor: pointer;
 }
 
 /*------------------------------------------------------
