@@ -327,7 +327,6 @@
     align-items: center;
     justify-content: center;
 }
-.next-target-title-desc{}
 .next-target-title{
     color: #0d1321;
     font-size: 32px;
@@ -358,7 +357,9 @@
 .next-target-single-skill-img{
     margin: 28px 0;
 }
-.next-target-single-skill img{}
+.next-target-single-skill img{
+    width: 108px;
+}
 .next-target-single-skill h4{
     color: #0d1321;
     font-size: 24px;
@@ -374,4 +375,67 @@
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 700;
+}
+
+/*------------------------------------------------------
+            Need Support Section     
+------------------------------------------------------*/
+.need-support-section{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.need-support-container{
+    background-image: linear-gradient(0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16,0.5) 100%),url(/assets/handshake.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.575);
+    width: 1140px;
+    height: 288px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.support-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.support-title{
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.support-desc{
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+.input-content{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+input[type="text"] {
+    padding: 19px 20px;
+    width: 548px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border: none;
+}
+input[type="submit"] {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 17px 20px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border: none;
 }
