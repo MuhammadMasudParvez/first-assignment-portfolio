@@ -16,9 +16,13 @@
     margin: 0 auto;
 }
 .main-section nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 45px 150px;
 }
 .main-section nav ul{
+    width: 1140px;
     display: flex;
     justify-content: space-between;
     align-items: center;
